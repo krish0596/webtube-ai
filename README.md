@@ -1,4 +1,4 @@
-# webtuve-ai
+# webtube-ai
 
 Chrome extension to summarize, translate web pages and Youtube videos. Uses Gemini as the backend.
 
