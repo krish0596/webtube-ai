@@ -1,6 +1,6 @@
-# extension-summarize-translate-gemini
+# webtuve-ai
 
-Chrome extension to summarize and translate web pages. Uses Gemini as the backend.
+Chrome extension to summarize, translate web pages and Youtube videos. Uses Gemini as the backend.
 
 ## Setup
 
