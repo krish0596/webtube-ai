@@ -4,15 +4,13 @@ Chrome extension to summarize, translate web pages and Youtube videos. Uses Gemi
 
 ## Setup
 
-This extension can be installed from [Chrome Web Store](https://chromewebstore.google.com/detail/hmdcbbbdmfapkpdaganadiihfmdnpngi) or [Microsoft Edge Add-ons](https://microsoftedge.microsoft.com/addons/detail/ljmmilamifhanifgbfliknbicfjllheb).
-The following are instructions for manual installation, for development purposes.
+The following are instructions for manual installation.
 
 1. Open 'Manage Extensions' page in Google Chrome browser.
 2. Enable 'Developer mode'.
 3. Click 'Load unpacked' and select `extension` directory.
 4. Open 'Options' page and register the Gemini API Key, then select the language.
 
-You can obtain a Gemini API Key from [Google AI for Developers](https://ai.google.dev/).
 This extension currently uses following models:
 
 - Gemini 1.5 Pro: Gemini 1.5 Pro for text and images
