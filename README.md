@@ -1,6 +1,6 @@
 # extension-summarize-translate-gemini
 
-Chrome extension to summarize and translate web pages. Uses Gemini as the backend.
+Chrome extension to summarize and translate web pages and youtube videos. Uses Gemini as the backend. 
 
 ## Setup
 
