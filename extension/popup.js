@@ -24,20 +24,8 @@ const getCaptions = async (videoUrl, languageCode) => {
   // Return the captions of the YouTube video
   const languageCodeForCaptions = {
     en: "en",
-    de: "de",
-    es: "es",
-    fr: "fr",
-    it: "it",
-    pt_br: "pt-BR",
-    vi: "vi",
-    ru: "ru",
-    ar: "ar",
     hi: "hi",
     bn: "bn",
-    zh_cn: "zh-CN",
-    zh_tw: "zh-TW",
-    ja: "ja",
-    ko: "ko"
   };
 
   const preferredLanguages = [languageCodeForCaptions[languageCode], "en"];

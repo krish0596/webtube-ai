@@ -13,20 +13,8 @@ const getModelId = (languageModel, mediaType) => {
 const getSystemPrompt = async (actionType, mediaType, languageCode, taskInputLength) => {
   const languageNames = {
     en: "English",
-    de: "German",
-    es: "Spanish",
-    fr: "French",
-    it: "Italian",
-    pt_br: "Brazilian Portuguese",
-    vi: "Vietnamese",
-    ru: "Russian",
-    ar: "Arabic",
     hi: "Hindi",
     bn: "Bengali",
-    zh_cn: "Simplified Chinese",
-    zh_tw: "Traditional Chinese",
-    ja: "Japanese",
-    ko: "Korean"
   };
 
   const numItems = Math.min(10, 3 + Math.floor(taskInputLength / 2000));
