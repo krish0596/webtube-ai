@@ -8,7 +8,7 @@ const getModelId = (languageModel, mediaType) => {
   } else {
     return "gemini-1.0-pro";
   }
-};
+};//set the model
 
 const getSystemPrompt = async (actionType, mediaType, languageCode, taskInputLength) => {
   const languageNames = {
