@@ -28,7 +28,7 @@ const getSystemPrompt = async (actionType, mediaType, languageCode, taskInputLen
     } else {
       systemPrompt = `Summarize the entire text as up to ${numItems}-item Markdown numbered list ` +
         `in ${languageNames[languageCode]} and reply only with the list.\n` +
-        "Format:\n1. First point.\n2. Second point.\n3. Third point.";
+        "Format:\n1. First point.\n2. Second point.\n3. Third point. Also dont refer to the text as this text and so on and try to make it a bit more comprehensive";
     }
   } else if (actionType === "translate") {
     if (mediaType === "image") {
